@@ -129,6 +129,7 @@ static inline int msg_send_buffer(
 	str outb;
 	sr_net_info_t netinfo;
 	sr_event_param_t evp = {0};
+	int dproto;
 	int ret;
 
 #ifdef USE_TCP
